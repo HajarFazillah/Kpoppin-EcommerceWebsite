@@ -14,3 +14,6 @@ Assignment Requirements:
 • Shopping cart
 • Any other features
 "You are required to create a website with usability and user-friendly."
+
+Reference:
+[1]	Ktown4u.com. (2020). [online] Available at: http://www.ktown4u.com/ [Accessed 01 Nov. 2020].
