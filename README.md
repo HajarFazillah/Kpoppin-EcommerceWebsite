@@ -1,5 +1,6 @@
-# Kpoppin-EcommerceWebsite
+Diploma in IT, Sunway College, Malaysia
 Web Design Assignment
+# Kpoppin-EcommerceWebsite
 
 Learning Outcomes:
 LO1: Discuss the latest web technologies
