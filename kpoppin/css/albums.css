@@ -1,0 +1,81 @@
+.new {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: 0px 80px;
+	grid-gap: 20px;
+	text-align: center;
+	background-color: #e6e6e6; 
+} 
+
+.new a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+	display: flex;
+}
+
+/* Left column (menu) */
+.left {
+	background-color:silver;
+	flex: 10%;
+	padding: 0px 0;
+}
+
+.left h2 {
+	padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+	flex: 70%;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+/* Style the search box */
+#mySearch {
+	width: 89%;
+	font-size: 18px;
+	padding: 11px;
+	border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#myMenu li a {
+	padding: 12px;
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+.right a {
+	width: 10px;
+	padding: 0px;
+	text-decoration: none;
+	color: black;
+}
+
+tr, th, td {
+	border: 1px solid grey;
+	white-space: pre-line;
+}
+
+td {
+	width: 20%;
+	vertical-align: top;
+	float: center;
+	text-align: center;
+}
