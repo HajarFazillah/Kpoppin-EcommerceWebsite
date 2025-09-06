@@ -1,0 +1,106 @@
+.section{
+  text-align:center;
+  line-height: 1.5;
+  padding:50px 80px;
+}
+
+.container .box{
+  position: relative;
+  width: 380;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0,.1);
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container .box::before
+{
+content: '';
+width: 50%;
+height: 100%;
+position: wrap;
+background: rgba(255, 255, 255, .2);
+}
+
+.container .box .icon
+{
+position: relative;
+width: 80px;
+height: 80px;
+color: #fff;
+background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+border-radius: 50%;
+font-size: 40px;
+font-weight: 700;
+transition: 1s;
+}
+
+.container .box:nth-child(1) .icon
+{
+box-shadow: 0 0 0 0 #e91e63;
+background: #e91e63;
+}
+
+.container .box:nth-child(1) .icon
+{
+box-shadow: 0 0 0 0 #e91e63;
+background: #e91e63;
+}
+
+.container .box:nth-child(1):hover .icon
+{
+box-shadow: 0 0 0 400px #e91e63;
+}
+
+.container .box:nth-child(2) .icon
+{
+box-shadow: 0 0 0 0 #e91e63;
+background: #e91e63;
+}
+
+.container .box:nth-child(2):hover .icon
+{
+box-shadow: 0 0 0 400px #e91e63;
+}
+
+.container .box .content
+{
+position: relative;
+z-index: 1;
+transition: 0.8s;
+}
+
+.container .box:hover .content
+{
+color: #fff;
+}
+
+.container .box .content h3
+{
+font-size: 20px;
+margin: 10px 50px;
+line-height: 1.5;
+padding: 0;
+}
+
+.container .content a{
+display: inline-block;
+padding: 10px 20px;
+background: #fff;
+border-radius: 4px;
+text-decoration: none;
+color: #000;
+font-weight: 500;
+margin-top: 20px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+  
