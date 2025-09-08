@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kpoppin: Home</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="pics/icon.png" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+	<div class="mainnav">
+		<a href="http://localhost/kpoppin/home.html">Home</a>
+		<a href="http://localhost/kpoppin/login/login.php">My Account</a>
+		<a href="http://localhost/kpoppin/cart.php">My Cart</a>
+		<a href="http://localhost/kpoppin/cc.html">Customer Centre</a>
+	<div class="search-container">
+		<form action="/action_page.php">
+			<input type="text" placeholder="Search.." name="search">
+			<button type="submit">Search</button>
+			
+		</form>
+	</div>
+    </div>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+		<br>
+        <a href="http://localhost/kpoppin/home.html"><img src="../kpoppin/pics/logo.png" class="logo" style="width:40%; height:50%"></a>
+		<br>
+        <div class="navbar">
+            <div class="containBox">
+                <div class="dropdown"> 
+                    <button class="dropbtn">
+					<a href="http://localhost/kpoppin/albums.php">Albums</a></button> 
+                </div> 
+                <div class="dropdown"> 
+                    <button class="dropbtn">Star Collectables &#9662;</button> 
+                    <div class="dropdown-content"> 
+                        <a href="star1.php">Photocards & Posters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+                        <a href="star2.php">Photobook</a>
+                    </div>
+                </div> 
+                <div class="dropdown"> 
+                    <button class="dropbtn"><a href="http://localhost/kpoppin/merch.php">Merchandise</a></button> 
+                </div>
+                <div class="dropdown"> 
+                    <button class="dropbtn">Artist &#9662;</button> 
+                    <div class="dropdown-content"> 
+                        <a href="blackpink.php">BLACKPINK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<a href="http://localhost/kpoppin/ShoppingCart/bts.php">BTS</a>
+		<a href="http://localhost/kpoppin/ShoppingCart/mamamoo.php">MAMAMOO</a> 
+		<a href="http://localhost/kpoppin/ShoppingCart/nct.php">NCT</a>
+		<a href="http://localhost/kpoppin/ShoppingCart/exo.php">EXO</a>
+		<a href="http://localhost/kpoppin/ShoppingCart/redvelvet.php">Red Velvet</a>
+		<a href="http://localhost/kpoppin/ShoppingCart/suju.php">Super Junior</a>
+		<a href="http://localhost/kpoppin/ShoppingCart/2ne1.php">2NE1</a>
+		<a href="http://localhost/kpoppin/ShoppingCart/everglow.php">Everglow</a>
+                   
+				   </div>
+                </div>  
+                <div class="dropdown"> 
+                    <button class="dropbtn"><a href="#">Fansite &#9662;</a></button>
+					<div class="dropdown-content"> 
+                        <a href="bpfansite.html">BLACKPINK Fansite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="btsfansite.html">BTS Fansite</a>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    <script type="text/javascript">
+        mybutton = document.getElementById("topBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } 
+            else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+	<br>
+	<div class="banners" style="max-width:1000px; margin-left: auto; margin-right: auto;">
+  		<a href="#"><img class="Slides" src="pics/banner1.jpg" style="width:100%"></a>
+  		<a href="http://www.ktown4u.com/eventsub?eve_no=1401506&biz_no=220" target="_blank"><img class="Slides" src="pics/banner2.jpg" style="width:100%"></a>
+  		<a href="https://www.youtube.com/watch?v=F1-D4f9nNKQ&feature=youtu.be" target="_blank"><img class="Slides" src="pics/banner3.jpg" style="width:100%"></a>
+  		<a href="http://www.ktown4u.com/eventsub?eve_no=1805344&biz_no=220" target="_blank"><img class="Slides" src="pics/banner4.jpg" style="width:100%"></a>
+	</div>
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		var i;
+		var x = document.getElementsByClassName("Slides");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+		setTimeout(carousel, 5000); // Change image every 2 seconds
+		}
+	</script>
+<br><br>
+
+<h1>New Release</h1>
+<div class="new">
+	<div class="item"><br>
+		<a href="http://www.ktown4u.com/iteminfo?goods_no=48059&grp_no=231307" target="_blank"><img src="pics/album5.jpg" style="width: 200px; height: 199px; border-radius: 50%;"><br>Weki Meki - Mini Album Vol.4 [NEW RULES] (Break ver.)<br>
+				<p><font style="color: #f00; font-size: 15px;">21</font><font style="color: #f00;">% </font><i style="font-size: 8px;"><del>USD 16.58</del></i><br><font style="color: #cc0000; font-size: 15px;">USD 13.18</font></p></td></a>
+	</div>
+	<div class="item"><br>
+		<a href="http://www.ktown4u.com/iteminfo?goods_no=48036&grp_no=231307" target="_blank"><img src="pics/album6.jpg" style="width: 200px; height: 199px; border-radius: 50%;"><br>Seventeen - Album [24H] (Japanese Version)<br><br>
+				<p><font style="color: #cc0000; font-size: 15px;">USD 31.90</font></p></td></a>
+	</div>
+	<div class="item"><br>
+		<a href="http://www.ktown4u.com/iteminfo?goods_no=48163&grp_no=231307" target="_blank"><img src="pics/album7.jpg" style="width: 200px; height: 199px; border-radius: 50%;"><br>TWICE - Album Vol.2 [Eyes wide open] (Random Ver.)<br>
+				<p><font style="color: #f00; font-size: 15px;">19</font><font style="color: #f00;">% </font><i style="font-size: 8px;"><del>USD 18.91</del></i><br><font style="color: #cc0000; font-size: 15px;">USD 15.24</font></p></td></a>
+	</div>
+	<div class="item"><br>
+		<a href="http://www.ktown4u.com/iteminfo?grp_no=231307&goods_no=46909" target="_blank"><img src="pics/album8.jpg" style="width: 200px; height: 199px; border-radius: 50%;"><br>KARD - Single Album Vol.1 [Way With Words]<br>
+				<p><font style="color: #f00; font-size: 15px;">20</font><font style="color: #f00;">% </font><i style="font-size: 8px;"><del>USD 17.30</del></i><br><font style="color: #cc0000; font-size: 15px;">USD 13.80</font></p></td></a>
+	</div>
+</div>
+<br><br><br>
+
+<div class="container">
+	<table border="1" style="border-collapse: collapse; margin-left:auto; margin-right: auto;">
+		<tr>
+			<th colspan="2"><h2>Album Chart</h2></th>
+		</tr>
+		<tr>
+			<td rowspan="3"><a href="http://www.ktown4u.com/iteminfo?goods_no=47176&grp_no=231307" target="_blank"><img src="pics/album1.jpg" style="width: 250px; height: 249px;"><br>BLACKPINK 1st FULL ALBUM [THE ALBUM] (Ver.1)<br>
+				<p><font style="color: #f00; font-size: 25px;">25</font><font style="color: #f00;">% </font><i style="font-size: 11px;"><del>USD 22.14</del></i><br><font style="color: #cc0000; font-size: 25px;">USD 16.67</font></p></td></a>
+			<td><a href="product2.html" target="_blank"><img src="pics/album2.jpg" style="width: 180px; height: 179px;"><br><font style="font-size: 18px;">BTS - Album [MAP OF THE SOUL : 7] (Random Ver.)</font><br>
+				<p><font style="color: #f00; font-size: 15px;">20</font><font style="color: #f00;">% </font><i style="font-size: 8px;"><del>USD 21.33</del></i><br><font style="color: #cc0000; font-size: 15px;">USD 17.12</font></p></td></a>
+		</tr>
+		<tr>
+			<td><br><a href="http://www.ktown4u.com/iteminfo?grp_no=231307&goods_no=41069" target="_blank"><img src="pics/album3.jpg" style="width: 180px; height: 179px;"><br><font style="font-size: 18px;">Mamamoo - Album Vol.2 [reality in BLACK]</font><br>
+				<p><font style="color: #f00; font-size: 15px;">20</font><font style="color: #f00;">% </font><i style="font-size: 8px;"><del>USD 19.72</del></i><br><font style="color: #cc0000; font-size: 15px;">USD 15.86</font></p></td></a>
+		</tr>
+		<tr>
+			<td><a href="http://www.ktown4u.com/iteminfo?grp_no=231307&goods_no=47717" target="_blank"><img src="pics/album4.jpg" style="width: 180px; height: 179px;"><br><font style="font-size: 18px;">TXT(TOMORROW X TOGETHER) - Album [minisode1 : Blue Hour] (Random Ver.)</font><br>
+				<p><font style="color: #f00; font-size: 15px;">19</font><font style="color: #f00;">% </font><i style="font-size: 8px;"><del>USD 17.93</del></i><br><font style="color: #cc0000; font-size: 15px;">USD 14.61</font></p></td></a>
+		</tr>
+	</table>
+	<table border="1" style="border-collapse: collapse; margin-left:auto; margin-right: auto;">
+		<tr>
+			<th colspan="2"><h2>Merch Chart</h2></th>
+		</tr>
+		<tr>
+			<td rowspan="3"><a href="http://www.ktown4u.com/iteminfo?goods_no=47897&grp_no=231321" target="_blank"><img src="pics/merch1.jpg" style="width: 250px; height: 249px;"><br>SUPER JUNIOR D&E - puzzle package (Group ver)<br>Limited Edition]<br>
+				<p><font style="color: #cc0000; font-size: 15px;">USD 22.41</font></p></td></a></td>
+			<td><a href="http://www.ktown4u.com/iteminfo?goods_no=46463&grp_no=1068638" target="_blank"><img src="pics/merch2.jpg"><br><font style="font-size: 18px;">[H.Y.L.T] BLACKPINK - CHARACTER KEYRING</font><br>
+				<p><font style="color: #cc0000; font-size: 15px;">USD 11.65</font></p></td></a>
+		</tr>
+		<tr>
+			<td><a href="http://www.ktown4u.com/iteminfo?goods_no=47834&grp_no=231321" target="_blank"><img src="pics/merch3.jpg" ><br><font style="font-size: 18px;">[ILOVEYOU] TREASURE - PIN BUTTON + COVER SET</font><br>
+				<p><font style="color: #cc0000; font-size: 15px;">USD 8.97</font></p></td></a>
+		</tr>
+		<tr>
+			<td><a href="http://www.ktown4u.com/iteminfo?grp_no=231317&goods_no=42657" target="_blank"><img src="pics/merch4.jpg" style="width: 180px; height: 179px;"><br><font style="font-size: 18px;">CHUNG HA - OFFICIAL FANLIGHT STICK</font><br>
+				<p><font style="color: #cc0000; font-size: 15px;">USD 32.26</font></p></td></a>
+		</tr>
+	</table>
+</div>
+
+
+
+<br><br><br><br><br><br>
+        
+<footer> 
+    <div class="footer">
+        <div class="fcontainer">
+            <div class="copyright">
+                <p>Copyright &copy; Kpoppin 2020</p>
+            </div>
+            <div class="social">
+                <ul>
+                <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+                <li><a href="https://twitter.com/home?lang=en" class="fa fa-twitter"></a></li>
+                 <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
+                 <li><a href="https://www.youtube.com/" class="fa fa-youtube"></a></li>
+                 <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+              </ul>
+            </div>
+            <div class="info">
+                <ul> 
+                    <li><a href="#">About us</a></li> 
+                    <li><a href="#">Privacy Policy</a></li> 
+                    <li><a href="#">Terms &amp; Conditions</a></li> 
+                </ul> 
+            </div>  
+        </div>
+</footer> 
+
+	</body>
+</html>
